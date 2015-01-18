@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Warmly Welcome to Bluecenters!!!</div>
+        <br>
+        <form>
+            <input type="submit" value="connect" name="ConnectBluetooth" />
+            <br>
+            <br> Status Message:
+            <input type="text" name="StatusMessage" value="Not connected to the device" />
+            <br>
+            <br>
+            <div>
+                Gotten Value:</div>
+            <br>
+            <input type="text" name="GottenValue" value="value" />
+            <br>
+
+            <br>
+            <input type="radio" name="datatype" value="analog" checked>Analog
+            <br>
+            <input type="radio" name="datatype" value="digital">Digital
+             <div>
+                Choose the channel:</div>
+            <select name="Channel1" size="8" multiple="multiple">
+                <option>Channel1</option>
+                <option>Channel2</option>
+                <option>Channel3</option>
+                <option>Channel4</option>
+                <option>Channel5</option>
+                <option>Channel6</option>
+                <option>Channel7</option>
+                <option>Channel8</option>
+            </select>
+        </form>
+        <br>
+
+        <br>
+        <input type="submit" value="showgraph" name="ShowGraph" />
+        <br>
+        <br>
+        <input type="submit" value="showhistorygraph" name="ShowHistoryGraph" />
+        <br>
+    </body>
+</html>
