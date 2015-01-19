@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jan 18, 2015 12:02:24 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Database.Datalogg" table="datalogg" catalog="datalogg" optimistic-lock="version">
+        <id name="datetime" type="timestamp">
+            <column name="datetime" length="19" />
+            <generator class="assigned" />
+        </id>
+        <property name="channel1" type="int">
+            <column name="Channel1" not-null="true" />
+        </property>
+        <property name="channel2" type="int">
+            <column name="Channel2" not-null="true" />
+        </property>
+        <property name="channel3" type="int">
+            <column name="Channel3" not-null="true" />
+        </property>
+        <property name="channel4" type="int">
+            <column name="Channel4" not-null="true" />
+        </property>
+        <property name="channel5" type="int">
+            <column name="Channel5" not-null="true" />
+        </property>
+        <property name="channel6" type="int">
+            <column name="Channel6" not-null="true" />
+        </property>
+        <property name="channel7" type="int">
+            <column name="Channel7" not-null="true" />
+        </property>
+        <property name="channel8" type="java.lang.Integer">
+            <column name="Channel8" />
+        </property>
+    </class>
+</hibernate-mapping>
